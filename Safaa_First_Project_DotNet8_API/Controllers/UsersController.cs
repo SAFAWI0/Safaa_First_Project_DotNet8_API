@@ -69,6 +69,8 @@ public class UsersController : Controller
         return Ok("User Deleted Succesfully");
     }
 
+    // Update Request
+
     [HttpPut]
    
     public IActionResult UpdateUser(int? id,UserDTO userDTO)
